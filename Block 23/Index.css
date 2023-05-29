@@ -1,0 +1,123 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.Pokemon-logo{
+    width: 35rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #3B4CCA;
+}
+
+#pokemon-container{
+    text-align: center;
+}
+
+/* Pokémon cards */
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding:0 ;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    background-color: white;
+    height: 17rem;
+    width: 17rem;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+
+  }
+  
+  .pokemon-card h2 {
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 3px;
+                                                
+  }
+  
+  .pokemon-card img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    /* margin-bottom: 10px; */
+    display: flex;
+    justify-content: center;
+
+
+  }
+  
+  /* Popup */
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .popup p {
+    margin-bottom: 10px;
+  }
+  
+  .popup .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Buttons */
+  .details-button {
+    
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Pokemon Hollow', sans-serif;
+
+  }
+  
+  .details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Addpokemons{
+    display: flex;
+    justify-content: center;
+  }
+  .pokebutton{
+   
+    font-size: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Pokemon Hollow', sans-serif;
+    padding: 10px;
+    margin-top: 30px;
+  }
