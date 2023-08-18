@@ -21,7 +21,7 @@ console.log(newCar.getDescription());
 function ElectricCar(make, model, year, range) {
     Car.call(this, make, model, year);
     this.range = range;
-}
+} 
 //electric car prototype 
 ElectricCar.prototype = Object.create(Car.prototype);
 ElectricCar.prototype = ElectricCar;
